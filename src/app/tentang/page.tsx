@@ -11,7 +11,11 @@ export default function TentangPage() {
       <main className="pb-24 pt-4 px-4 max-w-md mx-auto space-y-6">
         {/* Filosofi */}
         <div className="rounded-2xl border border-border bg-card p-6 text-center space-y-3">
-          <span className="text-5xl">⚖️</span>
+          <img
+            src="/icon.png"
+            alt="Kasir Amanah"
+            className="mx-auto h-20 w-20 rounded-2xl shadow-md"
+          />
           <div>
             <h1 className="text-xl font-bold">Kasir Amanah</h1>
             <p className="text-sm text-muted-foreground mt-1">

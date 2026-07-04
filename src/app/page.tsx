@@ -5,8 +5,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-6 bg-gradient-to-b from-primary/5 to-background">
       {/* Branding */}
       <div className="text-center space-y-3">
-        <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/30">
-          <span className="text-4xl">⚖️</span>
+        <div className="mx-auto mb-4">
+          <img
+            src="/icon.png"
+            alt="Kasir Amanah"
+            className="h-24 w-24 rounded-2xl shadow-lg shadow-primary/30"
+          />
         </div>
         <h1 className="text-3xl font-bold tracking-tight">Kasir Amanah</h1>
         <p className="text-muted-foreground max-w-xs text-sm leading-relaxed">
