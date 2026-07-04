@@ -2,21 +2,23 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-6 bg-gradient-to-b from-primary/5 to-background">
+    <main className="flex min-h-dvh flex-col items-center justify-center gap-6 px-4 py-8 bg-gradient-to-b from-primary/5 to-background">
       {/* Branding */}
-      <div className="text-center space-y-3">
-        <div className="mx-auto mb-4">
+      <div className="text-center space-y-3 w-full max-w-sm">
+        <div className="mx-auto w-fit">
           <img
             src="/icon.png"
             alt="Kasir Amanah"
-            className="h-24 w-24 rounded-2xl shadow-lg shadow-primary/30"
+            className="h-24 w-24 rounded-2xl shadow-lg shadow-primary/30 mx-auto"
           />
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">Kasir Amanah</h1>
-        <p className="text-muted-foreground max-w-xs text-sm leading-relaxed">
+        <h1 className="text-3xl font-bold tracking-tight text-center">
+          Kasir Amanah
+        </h1>
+        <p className="text-muted-foreground text-sm leading-relaxed text-center">
           Kasir warung yang menjaga timbangan dan harga tetap jujur (<em>mizan</em>).
         </p>
-        <p className="text-xs text-muted-foreground/70">
+        <p className="text-xs text-muted-foreground/70 text-center">
           بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
         </p>
       </div>
@@ -46,7 +48,7 @@ export default function Home() {
       {/* Footer */}
       <div className="text-center space-y-1">
         <p className="text-[10px] text-muted-foreground/60">
-          Versi 0.1.0 — Milestone 4
+          Versi 0.1.0 — MVP
         </p>
         <Link
           href="/tentang"

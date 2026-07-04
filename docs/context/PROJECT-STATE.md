@@ -3,8 +3,8 @@
 > Anchor file. Baca ini di awal setiap sesi Claude Code sebelum lanjut kerja.
 
 ## Status saat ini
-**Fase:** MVP selesai — Milestone 0–4 done (2026-07-05)
-**Milestone aktif:** Siap Milestone 5 (v2: PPOB, white-label, zakat) atau testing user
+**Fase:** MVP selesai — Milestone 0–4 done + 2 fix icon & layout (2026-07-05)
+**Milestone aktif:** Siap testing user / distribusi terbatas
 
 ## Ringkasan produk
 Aplikasi kasir (POS) untuk warung sembako, toko kelontong, dan pedagang pasar rakyat. Diferensiasi: harga ganda eceran/grosir per pelanggan, kasbon dengan reminder WhatsApp, offline-first, model lisensi non-subscription, positioning "jujur & berkah".
@@ -120,6 +120,8 @@ cd android && ./gradlew assembleDebug   # Build APK
 - [x] Backup/restore JSON atomic (Dexie transaction)
 - [x] Watermark struk: "Powered by Kasir Amanah — sadaqah jariyah"
 - [x] Branding "jujur & berkah" + ayat Al-Quran (QS Ar-Rahman 55:9)
+- [x] Fix 1: Android adaptive icon via @capacitor/assets (74 assets, 2.45 MB)
+- [x] Fix 2: Home page center fix (min-h-dvh + text-center)
 
 ## Yang belum diputuskan
 - Struktur harga lisensi (nominal)
